@@ -4,19 +4,19 @@ A customizable, real-time hand gesture recognition system that allows users to t
 
 **Features**
 
-Custom gesture recording using webcam
+* Custom gesture recording using webcam
 
-User-defined gesture → action mapping
+* User-defined gesture → action mapping
 
-Real-time gesture recognition
+* Real-time gesture recognition
 
-Desktop automation via PyAutoGUI
+* Desktop automation via PyAutoGUI
 
-FastAPI backend + Web-based frontend
+* FastAPI backend + Web-based frontend
 
-Machine learning using KNN classifier
+* Machine learning using KNN classifier
 
-MediaPipe hand landmark extraction
+* MediaPipe hand landmark extraction
 
 **System Architecture**
 Browser (Frontend UI)
@@ -30,10 +30,10 @@ KNN Model (Gesture Classification)
 PyAutoGUI (Desktop Automation)
 
 **Installation Guide**
-1️⃣ Clone Repository
-2️⃣ Create Virtual Environment
-3️⃣ Install Dependencies
-▶️ Running The Project
+* 1️⃣ Clone Repository
+* 2️⃣ Create Virtual Environment
+* 3️⃣ Install Dependencies
+  ▶️ Running The Project
 
 Step 1 — Start Backend
 Backend runs at:
@@ -44,7 +44,7 @@ Step 2 — Open Frontend
 in your browser
 
 **How To Use**
-1️⃣ Add & Record Gesture
+* 1️⃣ Add & Record Gesture
 
 Enter gesture name
 
@@ -54,14 +54,14 @@ Click Add & Record Gesture
 
 Show your gesture to webcam (50 samples captured)
 
-2️⃣ Train Model
+* 2️⃣ Train Model
 
 Click Train Model
 
 This creates:
 
 model.pkl
-3️⃣ Start Recognition
+* 3️⃣ Start Recognition
 
 Click Start Recognition
 
@@ -73,31 +73,31 @@ Selected desktop action executes
 
 🎮 Available Desktop Actions
 
-Scroll Up
+1. Scroll Up
 
-Scroll Down
+2. Scroll Down
 
-Volume Up
+3. Volume Up
 
-Volume Down
+4. Volume Down
 
-(Extendable inside gesture_engine.py)
+   (Extendable inside gesture_engine.py)
 
 **Technologies Used**
 
-Python
+1. Python
 
-FastAPI
+2. FastAPI
 
-OpenCV
+3. OpenCV
 
-MediaPipe
+4. MediaPipe
 
-Scikit-learn (KNN)
+5. Scikit-learn (KNN)
 
-PyAutoGUI
+6. PyAutoGUI
 
-HTML, CSS, JavaScript
+7. HTML, CSS, JavaScript
 
 **Resume Description**
 
@@ -105,19 +105,19 @@ Developed a real-time customizable hand gesture recognition system using MediaPi
 
 **Future Improvements**
 
-Deep learning-based gesture recognition (CNN)
+1. Deep learning-based gesture recognition (CNN)
 
-Dataset persistence using CSV storage
+2. Dataset persistence using CSV storage
 
-Gesture deletion & management UI
+3. Gesture deletion & management UI
 
-Confidence threshold filtering
+4. Confidence threshold filtering
 
-Adjustable action cooldown
+5. Adjustable action cooldown
 
-Packaged desktop application
+6. Packaged desktop application
 
-Multi-gesture recognition support
+7. Multi-gesture recognition support
 
 **Author**
 
