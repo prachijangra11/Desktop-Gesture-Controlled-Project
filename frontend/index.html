@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gesture Desktop Control</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Gesture Control System</h1>
+
+<div class="card">
+
+    <input type="text" id="gestureName" placeholder="Enter Gesture Name">
+
+    <select id="gestureAction">
+        <option value="scroll_up">Scroll Up</option>
+        <option value="scroll_down">Scroll Down</option>
+        <option value="volume_up">Volume Up</option>
+        <option value="volume_down">Volume Down</option>
+    </select>
+
+    <button onclick="addGesture()">Add & Record Gesture</button>
+    <button onclick="trainModel()">Train Model</button>
+    <button onclick="startRecognition()">Start Recognition</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
