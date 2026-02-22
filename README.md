@@ -31,44 +31,17 @@ PyAutoGUI (Desktop Automation)
 
 **Installation Guide**
 1️⃣ Clone Repository
-git clone https://github.com/yourusername/Desktop-Gesture-Controlled-Project.git
-cd Desktop-Gesture-Controlled-Project
 2️⃣ Create Virtual Environment
-python -m venv venv
-
-Activate:
-
-Windows
-
-venv\Scripts\activate
 3️⃣ Install Dependencies
-pip install -r requirements.txt
-
-If requirements.txt is missing:
-
-pip install fastapi uvicorn opencv-python mediapipe scikit-learn joblib pyautogui numpy
 ▶️ Running The Project
+
 Step 1 — Start Backend
-
-Go into backend folder:
-
-cd backend
-uvicorn app:app --reload
-
 Backend runs at:
-
 http://127.0.0.1:8000
-
 Keep this terminal open.
 
 Step 2 — Open Frontend
-
-Open:
-
-frontend/index.html
-
 in your browser
-(or use VS Code Live Server)
 
 **How To Use**
 1️⃣ Add & Record Gesture
